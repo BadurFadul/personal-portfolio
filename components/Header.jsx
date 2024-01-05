@@ -1,5 +1,6 @@
 "use client"
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 import ThemeToggler from './ThemeToggler'
 import Logo from './Logo'
@@ -7,8 +8,26 @@ import Nav from './Nav'
 import MobileNav from './MobileNav'
 
 const Header = () => {
+    const [header, setHeader] = useState(false);
+    const pathname = usePathname();
+
+    useEffect(() => {
+        const scrollYPos = window.addEventListener('scroll', () => {
+          window.scrollY > 50 ? setHeader(true) : setHeader(false);
+        });
+    
+        // remove event
+        return () => window.removeEventListener('scroll', scrollYPos);
+      });
+
   return (
-    <header>
+    <header
+    className={`${
+        header
+          ? 'py-4 bg-white shadow-lg dark:bg-accent'
+          : 'py-6 dark:bg-transparent'
+      } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#f5fbfe]'}`}
+    >
        <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           <Logo />
