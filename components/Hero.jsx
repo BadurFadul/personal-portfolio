@@ -14,6 +14,9 @@ import DevImg from './DevImg';
 import Socials from './Socials';
 
 const Hero = () => {
+  const handleDownload = () => {
+
+  };
   return (
     <section className='py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none'>
       <div className='container mx-auto'>
@@ -35,10 +38,11 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant='secondary' className='gap-x-2'>
-                Download CV
-                <Download size={18} />
-              </Button>
+              <a href='/about/CV.pdf' download='Badreldin_Fadul_CV.pdf'>
+                <Button variant='secondary' className='gap-x-2'>
+                  Download CV <Download size={18} />
+                </Button>
+               </a>
             </div>
             {/* socials */}
             <Socials
