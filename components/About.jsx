@@ -113,23 +113,6 @@ const skillData = [
       
     ],
   },
-  {
-    title: 'tools',
-    data: [
-      {
-        imgPath: '/about/vscode.svg',
-      },
-      {
-        imgPath: '/about/figma.svg',
-      },
-      {
-        imgPath: '/about/notion.svg',
-      },
-      {
-        imgPath: '/about/wordpress.svg',
-      },
-    ],
-  },
 ];
 
 const About = () => {
