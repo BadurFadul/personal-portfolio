@@ -22,8 +22,8 @@ const projectData = [
     name: 'Music streaming app',
     description:
       'This project is built using React for the frontend, Redux for state management, and TailwindCSS for styling',
-    link: 'https://github.com/BadurFadul/music-streaming-app',
-    github: 'https://b-musii.netlify.app/',
+    link: 'https://b-musii.netlify.app/',
+    github: 'https://github.com/BadurFadul/music-streaming-app',
   },
   {
     image: '/work/4.png',
@@ -31,8 +31,8 @@ const projectData = [
     name: 'E-comerce website',
     description:
       'A Fullstack E-comerce website that combines a frontend built with React and Redux and a backend built with ASP.NET Core 7 ',
-    link: 'https://github.com/BadurFadul/Fullstack?tab=readme-ov-file',
-    github: 'https://b-comerce.netlify.app/',
+    link: 'https://b-comerce.netlify.app/',
+    github: 'https://github.com/BadurFadul/Fullstack?tab=readme-ov-file',
   },
   {
     image: '/work/2.png',
@@ -103,7 +103,7 @@ const Work = () => {
             {/* show only the first 4 projects for the slides */}
             {projectData.slice(0, 4).map((project, index) => {
               return (
-                <SwiperSlide key={index}>
+                <SwiperSlide  key={index}>
                   <ProjectCard project={project} />
                 </SwiperSlide>
               );
