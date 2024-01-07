@@ -14,9 +14,6 @@ import DevImg from './DevImg';
 import Socials from './Socials';
 
 const Hero = () => {
-  const handleDownload = () => {
-
-  };
   return (
     <section className='py-12 xl:py-24 h-[78vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none'>
       <div className='container mx-auto'>

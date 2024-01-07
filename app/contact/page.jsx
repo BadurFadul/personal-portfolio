@@ -16,8 +16,7 @@ const Contact = () => {
             </div>
             <h1 className='h1 max-w-md mb-8'>Let's Work Together.</h1>
             <p className='subtitle max-w-[400px]'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat,
-              nostrum.
+              You will find my personal details below. don't haesitate  to connect.
             </p>
           </div>
           {/* illustration */}
@@ -30,7 +29,7 @@ const Contact = () => {
             {/* mail */}
             <div className='flex items-center gap-x-8'>
               <MailIcon size={18} className='text-primary' />
-              <div>youremail@gmail.com</div>
+              <div>badoryousif.by@gmail.com</div>
             </div>
             {/* address */}
             <div className='flex items-center gap-x-8'>
