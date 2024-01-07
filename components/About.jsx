@@ -27,7 +27,7 @@ const infoData = [
   },
   {
     icon: <Calendar size={20} />,
-    text: 'Born on 10 Mar, 1998',
+    text: 'Born on 1 May, 1998',
   },
   {
     icon: <GraduationCap size={20} />,
@@ -121,7 +121,7 @@ const About = () => {
   };
 
   return (
-    <section className='xl:h-[860px] pb-12 xl:py-24'>
+    <section className='xl:h-[920px] pb-12 xl:py-24'>
       <div className='container mx-auto'>
         <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
           About me
@@ -157,12 +157,12 @@ const About = () => {
                 <TabsContent value='personal'>
                   <div className='text-center xl:text-left'>
                     <h3 className='h3 mb-4'>
-                      Unmatched Service Quality for Over 10 Years
+                      Been coding since 2019
                     </h3>
                     <p className='subtitle max-w-xl mx-auto xl:mx-0'>
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experiences.
+                    I have immersed myself in the world of coding, developing a strong skill 
+                    set and a deep passion for 
+                    problem-solving
                     </p>
                     {/* icons */}
                     <div className='grid xl:grid-cols-2 gap-4 mb-12'>

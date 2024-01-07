@@ -12,19 +12,19 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: 'software developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      'Craft intricate and efficient software solutions by transforming ideas into functional applications. Collaborate across teams, write clean code, and ensure our software exceeds expectations.',
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: 'Fullstack developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      'Navigate both frontend and backend realms, building engaging interfaces and robust server logic. Blend technical skills to orchestrate seamless interactions across the application layers.',
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: 'Backend developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      'Architect and optimize server-side components, databases, and APIs. Ensure smooth functionality, data integrity, and robust security measures for seamless application operation.',
   },
 ];
 
