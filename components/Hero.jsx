@@ -15,7 +15,7 @@ import Socials from './Socials';
 
 const Hero = () => {
   return (
-    <section className='py-12 xl:py-24 h-[78vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none'>
+    <section className='py-12 xl:py-24 h-[85vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none'>
       <div className='container mx-auto'>
         <div className='flex justify-between gap-x-8'>
           {/* text */}
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
           {/* image */}
           <div className='hidden xl:flex relative'>
-            <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
+            <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[200px] h-[200px] bg-no-repeat absolute -top-1 -right-2'></div>
             <DevImg
               containerStyles='bg-hero_shape w-[480px] h-[462px] bg-no-repeat relative bg-bottom'
               imgSrc='/about/developer.png'
